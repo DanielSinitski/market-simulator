@@ -1,0 +1,5 @@
+# engine/CMakeLists.txt
+add_library(engine INTERFACE)
+# We use INTERFACE for now since Stopwatch is header-only. 
+# Later, when you add .cpp files, you will change this to STATIC or SHARED.
+target_include_directories(engine INTERFACE include)

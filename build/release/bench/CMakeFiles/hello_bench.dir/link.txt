@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -O3 -DNDEBUG CMakeFiles/hello_bench.dir/hello_bench.cpp.o -o hello_bench  ../_deps/benchmark-build/src/libbenchmark.a -lrt 
