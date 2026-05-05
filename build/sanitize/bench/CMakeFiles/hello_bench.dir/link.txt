@@ -1,1 +1,0 @@
-/usr/bin/c++ -O1 -g -fsanitize=address,undefined -fno-omit-frame-pointer -g -O0 -fsanitize=address,undefined CMakeFiles/hello_bench.dir/hello_bench.cpp.o -o hello_bench  ../_deps/benchmark-build/src/libbenchmark.a -lrt 
